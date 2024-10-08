@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.clothes-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.clothes-item {
+    text-align: center;
+    cursor: pointer;
+}
+
+.clothes-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.clothes-item img:hover {
+    transform: scale(1.1);
+}
+
+.cloth-details {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#reuse-suggestions {
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Fashion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sustainable Fashion</h1>
+    </header>
+    <section class="clothes-section">
+        <div class="clothes-item" onclick="showClothDetails('cotton')">
+            <img src="cotton.webp" alt="Cotton Clothes">
+            <p>Cotton</p>
+        </div>
+        <div class="clothes-item" onclick="showClothDetails('silk')">
+            <img src="silk.jpeg" alt="Silk Clothes">
+            <p>Silk</p>
+        </div>
+        <div class="clothes-item" onclick="showClothDetails('polyester')">
+            <img src="polyester.jpeg" alt="Polyester Clothes">
+            <p>Polyester</p>
+        </div>
+		<div class="clothes-item" onclick="showClothDetails('nylon')">
+            <img src="nylon.jpeg" alt="Nylon Clothes">
+            <p>Nylon</p>
+		</div>
+    </section>
+    <section id="cloth-details" class="cloth-details">
+        <h2 id="cloth-title">Cloth Details</h2>
+        <p id="usage-info"></p>
+        <p id="reuse-suggestions"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
